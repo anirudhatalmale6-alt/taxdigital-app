@@ -209,21 +209,7 @@ export default function Layout() {
       <aside className={`sidebar ${sidebarOpen ? 'sidebar--open' : ''}`}>
         {/* Logo */}
         <div className="sidebar__logo">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <rect width="32" height="32" rx="8" fill="var(--color-primary)" />
-            <text
-              x="16"
-              y="22"
-              textAnchor="middle"
-              fill="#fff"
-              fontSize="16"
-              fontWeight="700"
-              fontFamily="Plus Jakarta Sans, sans-serif"
-            >
-              TD
-            </text>
-          </svg>
-          <span className="sidebar__logo-text">Tax Digital</span>
+          <img src="/logo.png" alt="Tax Digital" style={{ height: '40px', width: 'auto', borderRadius: '4px' }} />
           <button
             className="sidebar__close"
             onClick={() => setSidebarOpen(false)}

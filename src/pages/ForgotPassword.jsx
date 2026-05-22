@@ -335,9 +335,7 @@ export default function ForgotPassword() {
         {/* Logo */}
         <div style={styles.logoArea}>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div style={styles.logoIcon}>
-              <span style={styles.logoText}>T</span>
-            </div>
+            <img src="/logo.png" alt="Tax Digital" style={{ maxWidth: '220px', height: 'auto', marginBottom: '8px' }} />
           </div>
           <h1 style={styles.title}>Reset Password</h1>
           <p style={styles.subtitle}>{getSubtitleText()}</p>
